@@ -1,0 +1,61 @@
+{
+  "note": "Sample set for development. Sanskrit is the traditional public-domain text; cross-check against Gita Press before release. Hindi/English meanings are simple original renderings, to be reviewed.",
+  "shlokas": [
+    {
+      "chapter": 2,
+      "verse": 14,
+      "sanskrit": "मात्रास्पर्शास्तु कौन्तेय शीतोष्णसुखदुःखदाः ।\nआगमापायिनोऽनित्यास्तांस्तितिक्षस्व भारत ॥",
+      "transliteration": "mātrā-sparśās tu kaunteya śītoṣṇa-sukha-duḥkha-dāḥ\nāgamāpāyino 'nityās tāṁs titikṣasva bhārata",
+      "hindi": "हे कुन्तीपुत्र, इन्द्रियों और विषयों के संयोग से सर्दी-गर्मी और सुख-दुःख आते हैं। ये आने-जाने वाले और अनित्य हैं, इसलिए हे भारत, इन्हें सहन करो।",
+      "english": "O son of Kunti, the contact of the senses with their objects brings cold and heat, pleasure and pain. They come and go and do not last; endure them patiently, O Bharata."
+    },
+    {
+      "chapter": 2,
+      "verse": 20,
+      "sanskrit": "न जायते म्रियते वा कदाचि-\nन्नायं भूत्वा भविता वा न भूयः ।\nअजो नित्यः शाश्वतोऽयं पुराणो\nन हन्यते हन्यमाने शरीरे ॥",
+      "transliteration": "na jāyate mriyate vā kadācin\nnāyaṁ bhūtvā bhavitā vā na bhūyaḥ\najo nityaḥ śāśvato 'yaṁ purāṇo\nna hanyate hanyamāne śarīre",
+      "hindi": "आत्मा न कभी जन्म लेती है, न मरती है; न यह होकर फिर न होने वाली है। यह अजन्मा, नित्य, शाश्वत और पुरातन है; शरीर के मारे जाने पर भी यह नहीं मारी जाती।",
+      "english": "The soul is never born and never dies; having been, it will never cease to be. Unborn, eternal, everlasting and ancient, it is not slain when the body is slain."
+    },
+    {
+      "chapter": 2,
+      "verse": 47,
+      "sanskrit": "कर्मण्येवाधिकारस्ते मा फलेषु कदाचन ।\nमा कर्मफलहेतुर्भूर्मा ते सङ्गोऽस्त्वकर्मणि ॥",
+      "transliteration": "karmaṇy evādhikāras te mā phaleṣu kadācana\nmā karma-phala-hetur bhūr mā te saṅgo 'stv akarmaṇi",
+      "hindi": "तुम्हारा अधिकार केवल कर्म करने में है, उसके फलों में कभी नहीं। तुम कर्मफल के कारण मत बनो, और कर्म न करने में भी तुम्हारी आसक्ति न हो।",
+      "english": "You have a right to your actions alone, never to their fruits. Do not let the fruit of action be your motive, and do not be attached to inaction."
+    },
+    {
+      "chapter": 4,
+      "verse": 7,
+      "sanskrit": "यदा यदा हि धर्मस्य ग्लानिर्भवति भारत ।\nअभ्युत्थानमधर्मस्य तदात्मानं सृजाम्यहम् ॥",
+      "transliteration": "yadā yadā hi dharmasya glānir bhavati bhārata\nabhyutthānam adharmasya tadātmānaṁ sṛjāmy aham",
+      "hindi": "हे भारत, जब-जब धर्म की हानि होती है और अधर्म बढ़ता है, तब-तब मैं स्वयं को प्रकट करता हूँ।",
+      "english": "Whenever righteousness declines and unrighteousness rises, O Bharata, then I manifest Myself."
+    },
+    {
+      "chapter": 4,
+      "verse": 8,
+      "sanskrit": "परित्राणाय साधूनां विनाशाय च दुष्कृताम् ।\nधर्मसंस्थापनार्थाय सम्भवामि युगे युगे ॥",
+      "transliteration": "paritrāṇāya sādhūnāṁ vināśāya ca duṣkṛtām\ndharma-saṁsthāpanārthāya sambhavāmi yuge yuge",
+      "hindi": "सज्जनों की रक्षा, दुष्टों के विनाश और धर्म की स्थापना के लिए मैं हर युग में प्रकट होता हूँ।",
+      "english": "To protect the good, to destroy the wicked, and to re-establish righteousness, I appear age after age."
+    },
+    {
+      "chapter": 6,
+      "verse": 5,
+      "sanskrit": "उद्धरेदात्मनात्मानं नात्मानमवसादयेत् ।\nआत्मैव ह्यात्मनो बन्धुरात्मैव रिपुरात्मनः ॥",
+      "transliteration": "uddhared ātmanātmānaṁ nātmānam avasādayet\nātmaiva hy ātmano bandhur ātmaiva ripur ātmanaḥ",
+      "hindi": "मनुष्य को अपने द्वारा अपना उद्धार करना चाहिए, स्वयं को नीचे नहीं गिराना चाहिए। क्योंकि मनुष्य स्वयं ही अपना मित्र है और स्वयं ही अपना शत्रु।",
+      "english": "Lift yourself up by your own self; do not let yourself sink. For the self alone is one's friend, and the self alone is one's enemy."
+    },
+    {
+      "chapter": 18,
+      "verse": 66,
+      "sanskrit": "सर्वधर्मान्परित्यज्य मामेकं शरणं व्रज ।\nअहं त्वा सर्वपापेभ्यो मोक्षयिष्यामि मा शुचः ॥",
+      "transliteration": "sarva-dharmān parityajya mām ekaṁ śaraṇaṁ vraja\nahaṁ tvā sarva-pāpebhyo mokṣayiṣyāmi mā śucaḥ",
+      "hindi": "सब धर्मों को छोड़कर केवल मेरी शरण में आ जाओ। मैं तुम्हें सब पापों से मुक्त कर दूँगा, शोक मत करो।",
+      "english": "Setting aside all duties, take refuge in Me alone. I will free you from all sins; do not grieve."
+    }
+  ]
+}

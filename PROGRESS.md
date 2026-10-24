@@ -17,17 +17,19 @@ Legend: [x] done · [~] in progress · [ ] pending
 - [ ] Run on real phone (USB debugging)
 
 ## Phase 2 – Data
-- [ ] Shloka JSON schema finalised
+- [x] Shloka JSON schema finalised (`app/src/main/assets/shlokas.json`)
+- [~] Sample set of 7 famous shlokas added (2.14, 2.20, 2.47, 4.7, 4.8, 6.5, 18.66) – verify against Gita Press
 - [ ] Chapter 1–18 data added and verified
 
 ## Phase 3 – Main app UI
+- [x] Home screen: random shloka card + "Next" + "Screensaver set karo" button
 - [ ] Chapter list screen
 - [ ] Shloka detail screen
 
 ## Phase 4 – Screensaver
-- [ ] DreamService implemented
-- [ ] Shloka rotation + animation
-- [ ] Screensaver settings
+- [x] DreamService implemented (`dream/GitaDreamService.kt`, plain Views, black background)
+- [x] Shloka rotation (every 15 s) + fade animation + small position shift against burn-in
+- [ ] Screensaver settings (interval, language, font size)
 
 ## Phase 5 – Settings & polish
 - [ ] Language / font / theme settings
@@ -46,3 +48,4 @@ Legend: [x] done · [~] in progress · [ ] pending
 - 2026-10-22: Git 2.56.0 installed + global identity set. Next: Android Studio.
 - 2026-10-24: Android Studio + SDK installed. `git init`, first commit, pushed to GitHub (`origin/main`). Next: Phase 1 – create empty Kotlin + Compose project.
 - 2026-10-24: Empty Compose project created (package `com.vishaldevops.gitascreensaver`, minSdk 26, targetSdk 37, Gradle 9.6.0). Gradle download timed out from Java, so the zip was fetched manually and `networkTimeout` raised to 120000. App runs on emulator. Next: run on real phone, then Phase 2 (shloka data).
+- 2026-10-24: Added 7 sample shlokas (JSON), home screen showing a shloka, and the Gita screensaver (DreamService). Tested on Pixel 8 emulator: screensaver starts and rotates shlokas. Emulator test needs: charging on, "stay awake while charging" off, light sensor > 0 (else Android shows its low-light clock instead). Next: test on real phone, then add all 700 shlokas.
