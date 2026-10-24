@@ -35,7 +35,7 @@ object ShlokaRepository {
             Shloka(
                 chapter = o.getInt("chapter"),
                 verse = o.getInt("verse"),
-                sanskrit = o.getString("sanskrit"),
+                sanskrit = keepDandaWithWord(o.getString("sanskrit")),
                 transliteration = o.getString("transliteration"),
                 hindi = o.getString("hindi"),
                 english = o.getString("english"),
@@ -44,4 +44,11 @@ object ShlokaRepository {
         cache = list
         return list
     }
+
+    /**
+     * Swaps the space before "।" / "॥" for a non-breaking space,
+     * so the danda never wraps onto a line of its own on narrow or large-font screens.
+     */
+    private fun keepDandaWithWord(text: String): String =
+        text.replace(" ।", " ।").replace(" ॥", " ॥")
 }
